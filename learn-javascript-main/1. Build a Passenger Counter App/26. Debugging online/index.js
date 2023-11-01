@@ -7,7 +7,7 @@ function increment() {
     countEl.textContent = count
 }
 
-function save() {
+function save() { 
     let countStr = count + " - "
     saveEl.textContent += countStr
 }
