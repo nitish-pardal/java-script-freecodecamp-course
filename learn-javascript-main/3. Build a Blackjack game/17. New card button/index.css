@@ -4,15 +4,20 @@ body {
     background-size: cover;
     font-weight: bold;
     color: white;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+
 }
 
 h1 {
     color: goldenrod;
+    display: block;
 }
 
 #message-el {
     font-style: italic;
+    display: block;
 }
 
 /* 3. Make sure that the two buttons have some space between
@@ -26,4 +31,13 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    margin-bottom: 5px;
+    
+}
+@media (max-width:600px) {
+
+    button{
+        display: block;
+        margin:5px auto;
+    }
 }
