@@ -2,3 +2,8 @@
 
 // Create an array that describes yourself. Use the three primitive data types you've learned
 // It should contain your name (string), your age (number), and whether you like pizza (boolean)
+
+let mySelf = ['Nitish Pardal', 23 ,true];
+
+console.log(mySelf);
+//console.log(typeof(mySelf[]));

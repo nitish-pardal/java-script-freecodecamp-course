@@ -1,6 +1,7 @@
 let cards = [7, 4]
 cards.push(6)
 //console.log(cards)
+console.log(cards);
 
 // Push the newMessage to the messages array, and then log out the array
 
@@ -12,5 +13,13 @@ let messages = [
 
 let newMessage = "Same here!"
 
+messages.push(newMessage);
+console.log(messages);
 
 
+let candidates={
+    name:['nitish', 'ravi','rani'],
+    age:[23,44,12],
+    interests:['front-end developer','backend-developer','no-interest']
+};
+console.log(candidates);
