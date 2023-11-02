@@ -8,4 +8,8 @@ let featuredPosts = [
 
 // Create an array that lists your i.e. experience, education, licenses, skills or similar
 // The items of the array should be strings
+let myExperiences = ['forntend-developer','bachelors','driving license','java-script','html and css'];
+
+console.log(myExperiences);
+
 

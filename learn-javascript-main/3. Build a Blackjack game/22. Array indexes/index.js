@@ -7,8 +7,11 @@ let featuredPosts = [
 ]
 
 
-let experience = ["CEO at Scrimba", "Frontend developer at Xeneta", "People counter for Norstat"]
+let experience = ["CEO at Scrimba",
+ "Frontend developer at Xeneta", 
+ "People counter for Norstat"];
 
+console.log(experience[1],experience[2],experience[0]);
 // Make the following appear in the console:
 // Frontend developer at Xeneta
 // People counter for Norstat
