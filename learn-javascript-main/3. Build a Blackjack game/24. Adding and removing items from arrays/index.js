@@ -16,10 +16,12 @@ let newMessage = "Same here!"
 messages.push(newMessage);
 console.log(messages);
 
+messages.pop();
 
-let candidates={
-    name:['nitish', 'ravi','rani'],
+console.log(messages);
+/* let candidates={
+    name:['nitish', 'ravi','rani'], 
     age:[23,44,12],
     interests:['front-end developer','backend-developer','no-interest']
 };
-console.log(candidates);
+console.log(candidates); */
