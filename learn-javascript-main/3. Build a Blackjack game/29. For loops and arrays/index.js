@@ -11,6 +11,9 @@ let messages = [
 // console.log(messages[1])
 // console.log(messages[2])
 // console.log(messages[3])
+for (i=0;i<messages.length;i++){
+    console.log(messages[i]);
+}
 
 
 
