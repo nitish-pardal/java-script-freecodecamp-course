@@ -1,6 +1,7 @@
-// let randomNumber = Math.random() * 6
+let randomNumber = Math.random() * 7
+console.log(randomNumber);
 
-let flooredNumber = Math.floor(3.45632)
+let flooredNumber = Math.floor(randomNumber);
 
 console.log(flooredNumber)
 
