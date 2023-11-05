@@ -14,9 +14,21 @@ green color -> #5f9341
 
 
 input {
-    
+    padding:10px;
+    display: flex;
+    height:32px;
+    width:100%;
+    margin-bottom:5px;
+    border:1px solid #5f9341;
+
 }
 
+
 button {
-    
+    color:white;
+    background-color: #5f9341;
+    padding:10px 15px; 
+    font-size: 13px;
+    font-weight:bold;
+    border:none;
 }
