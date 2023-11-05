@@ -19,3 +19,7 @@ button {
     border: none;
     font-weight: bold;
 }
+button:active{
+    opacity:0.6;
+    padding: 8px 18px;
+}
